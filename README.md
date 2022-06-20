@@ -1,5 +1,7 @@
 # Rasperry Pi Pico Password Keyboard
 
+![pcb](./doc/pic_scaled.png)
+
 ## Install the software
 
 - Press the boot key of your RPP und connect it to your computer via USB.
@@ -27,3 +29,9 @@
 - All pins are pulled up with a internal resistor to 3.3V.
 - Connect a switch between GND and the configured IO pin from RPP.
 - Press the switch. The onboard-LED should be on for a short while and the configured text should be typed.
+
+## Links
+
+- Circuitpython download https://circuitpython.org/board/raspberry_pi_pico
+- This project is 'heavily inspired' from https://tutorial.cytron.io/2021/02/16/keyboard-emulator-using-raspberry-pi-pico-maker-pi-pico-and-circuitpython/
+- Additional keyboard Layouts https://github.com/Neradoc/Circuitpython_Keyboard_Layouts/tree/main/libraries/layouts
